@@ -1,0 +1,42 @@
+{
+  "name": "ai-gmail-assistant",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint"
+  },
+  "dependencies": {
+    "@ai-sdk/google": "^4.0.94",
+    "@ai-sdk/react": "^4.0.141",
+    "@auth/mongodb-adapter": "^3.11.3",
+    "@better-auth/mongo-adapter": "^1.7.10",
+    "ai": "^7.0.138",
+    "axios": "^1.20.0",
+    "better-auth": "^1.7.10",
+    "googleapis": "^186.0.0",
+    "lucide-react": "^1.61.0",
+    "mongodb": "^6.21.0",
+    "next": "16.4.0",
+    "next-auth": "^5.0.0-beta.32",
+    "ollama-ai-provider-v2": "^4.0.1",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "react-icons": "^5.7.0",
+    "resend": "^6.32.1",
+    "server-only": "^0.0.1",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@tailwindcss/turbopack": "^4",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.4.0",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
